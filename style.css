@@ -1,0 +1,42 @@
+body{
+    background-color:  #E5E5E5;;
+}
+/* header section  */
+
+.navbar img{
+    width: 40px;
+}
+
+
+/* main section  */
+main{
+    max-width: 870px;
+    background-color:#FFFFFF;
+    margin-top: 25px;
+    
+}
+.player img{
+    width: 56px;
+}
+.blog img{
+    width: 177px;
+}
+
+@media(min-width:992px){
+    .logo{
+        margin-left: 190px;
+    }
+    .menu{
+        margin-right: 170px;
+    }
+}
+.clock{
+    background-color:#ff4a5f52;
+    height: 30px;
+    width: 86px;
+    padding: 4px;
+    border-radius: 20px;
+}
+.blog a{
+    text-decoration: none;
+}
